@@ -1,0 +1,49 @@
+/* Desktop (≥1200px) */
+@media (min-width: 1200px) {
+    .banner-text {
+        font-size: 60px !important;
+    }
+    .banner-subtitle {
+        font-size: 24px !important;
+    }
+}
+
+/* Tablet (768px–1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 16px !important;
+    }
+    .banner-text {
+        font-size: 45px !important;
+        ;
+    }
+    .banner-subtitle {
+        font-size: 20px !important;
+    }
+    .caraousel-img {
+        height: 450px;
+    }
+    .our-mission {
+        height: 18rem !important;
+    }
+}
+
+/* Mobile (≤767px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px !important;
+    }
+    .banner-text {
+        font-size: 30p !important;
+    }
+    .banner-subtitle {
+        font-size: 16px !important;
+    }
+    .our-mission {
+        height: 19rem !important;
+    }
+    .caraousel-img {
+        height: 250px;
+    }
+    
+}

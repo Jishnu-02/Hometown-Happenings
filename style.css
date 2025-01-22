@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdf3ff !important;
+}
+
+.bg-image {
+    background-image: url('./assets/images/home/event-home-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+}
+
+.bg-image-about {
+    background-image: url('./assets/images/about/event-banner-about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vh;
+}
+
+.bg-image-contact {
+    background-image: url('./assets/images/contact/event-contact-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vh;
+}
+
+.bg-image-event {
+    background-image: url('./assets/images/events/events.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100vh;
+}
+
+.bg-bottom-banner {
+    background-image: url('./assets/images/about/about-bottom-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 100vh;
+}
+
+.bg-bottom-banner .jumbotron {
+    margin: 25px;
+}
+
+a:hover {
+  color: #FF6347 !important;
+  text-decoration: underline;
+}
+  
+
+.banner-text {
+    color: #E6E6FA; /* Lavender */
+    text-shadow: 10px 5px 2px rgba(0, 0, 0, 1.2); /* Subtle shadow for readability */
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.banner-subtitle {
+    color: #efd6c1; /* Soft Peach */
+    text-shadow: 8px 3px 3px rgba(0, 0, 0, 1.0); /* Softer shadow */
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+nav {
+    /* background-color: #6c3483c2 !important; */
+    /* background-color: #8b73ff !important; */
+    background-color: #180602 !important;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+ul li a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff6f61; /* Peachy coral */
+    text-decoration: underline; /* Subtle underline */
+}
+
+ul li a.active {
+    font-weight: bold;
+    font-size: 18px; /* Slight increase in font size */
+}
+
+.main-header {
+    color: #000000;
+    /* text-shadow: 4px 4px 4px; */
+    font-size: 3rem !important;
+}
+
+.our-mission {
+    height: 35rem !important;
+}
+
+.values-card {
+    height: 150px;
+    border-left: 2px solid #6c3483;
+}
+
+.our-team img {
+    max-width: 70% !important;
+}
+
+.about-bottom-banner-text {
+    color: #E6E6FA; /* Lavender */
+    /* text-shadow: 10px 5px 2px rgba(0, 0, 0, 1.2);  */
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2;
+    /* margin: 20px; */
+}
+
+.intro-section {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.caraousel-img {
+    height: 650px;
+}
+
+.submit-btn {
+    background-color: #6c3483 !important;
+    color: #ffffff !important;
+}
+
+/* Custom Toggler Button Background */
+.navbar-toggler-icon {
+    background-color: white !important; /* Change to white */
+  }
+.navbar-toggler {
+    border-color: white !important; /* Makes the border white */
+    background-color: transparent !important; /* Removes the background color */
+  }
+  
